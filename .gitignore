@@ -1,0 +1,14 @@
+# Node modules (huge folder, should not be committed)
+node_modules/
+
+# Environment variables (keep BrowserStack keys secret)
+.env
+
+# Cypress artifacts (screenshots, videos)
+cypress/screenshots/
+cypress/videos/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+.idea
