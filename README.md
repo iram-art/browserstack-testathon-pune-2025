@@ -1,4 +1,4 @@
-# BrowserStack Testathon - Pune 2025
+# Bug Busters - BrowserStack Testathon - Pune 2025
 
 This repository contains my Cypress-based automation test suite developed for the **BrowserStack Testathon - Pune 2025**.  
 
