@@ -1,20 +1,42 @@
-# browserstack-testathon-pune-2025
+# BrowserStack Testathon - Pune 2025
 
-Prerequisites
+This repository contains my Cypress-based automation test suite developed for the **BrowserStack Testathon - Pune 2025**.  
 
-Skillset
-You should be comfortable with :
-- Writing test scripts in Java, NodeJs, Python, C#, PhP or Ruby.
-- Using a test automation framework (example: Selenium, Playwright, Cypress,
-Puppeteer, etc).
-- Basic knowledge of how websites work (elements, locators, etc)
-Setup
-- A laptop
-- A GitHub account. You will create a private repository and invite us as collaborators to
-submit your code.
+It includes:
+- Documented test cases using **BrowserStack Test Management**
+- End-to-end automation with **Cypress** integrated into **BrowserStack Automate**
+- Test reporting and analytics dashboards for tracking results
 
-(https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-
-account-on-github/managing-access-to-your-personal-repositories/inviting-collaborators-t
+---
 
-o-a-personal-repository)
-- Access to BrowserStack tools. You will be provided access just before the event.
+## 1. Setup Instructions
+
+### Clone the repository:
+
+```bash
+git clone https://github.com/<your-username>/browserstack-testathon-pune-2025.git
+cd browserstack-testathon-pune-2025
+
+```
+
+## 2. Install dependencies:
+npm install
+
+## 3. Add BrowserStack credentials:
+Create a .env file in the project root:
+
+```
+BROWSERSTACK_USERNAME=your_username
+BROWSERSTACK_ACCESS_KEY=your_access_key
+
+```
+
+## 2. Running the Tests
+Run locally:
+  a. npm run test:local
+
+Open Cypress in interactive mode:
+  b. npm run test:open
+
+Run on BrowserStack cloud:
+  c. npm run test:browserstack
